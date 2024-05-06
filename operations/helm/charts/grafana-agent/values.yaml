@@ -106,7 +106,7 @@ agent:
 
       prometheus.remote_write "default" {
         endpoint {
-          url = "http://prometheus.local:9090/api/v1/write"
+          url = "http://prometheus-kube-prometheus-prometheus.prometheus:9090/api/v1/write"
         }
       }
 
