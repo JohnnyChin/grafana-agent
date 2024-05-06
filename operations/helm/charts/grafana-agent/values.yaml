@@ -89,7 +89,7 @@ agent:
 
       loki.write "local" {
         endpoint {
-          url = "http://lgtm-distributed-loki-gateway:80/loki/api/v1/push"
+          url = "http://lgtm-distributed-loki-gateway.lgtm-distributed:80/loki/api/v1/push"
         }
       }
 
